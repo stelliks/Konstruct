@@ -10,7 +10,8 @@ h1, h2, h3 {
 }
 
 body {
-    background: #F2F2F2;
+    /* background: #F2F2F2; */
+    font-family: 'OpenSans', sans-serif;
 }
 
 .header {
@@ -55,7 +56,6 @@ body {
 }
 
 .header-subtitle {
-    font-family: 'OpenSans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -64,7 +64,6 @@ body {
 }
 
 .header-scroll {
-    font-family: 'OpenSans', sans-serif;
     font-size: 11px;
     font-weight: 400;
     line-height: 13px;
@@ -107,7 +106,6 @@ body {
 .menu-item {
     padding-top: 25px;
     padding-bottom: 25px;
-    font-family: 'OpenSans', sans-serif;
     font-size: 12px;
     line-height: 14px;
     text-align: center;
@@ -123,7 +121,6 @@ body {
 
 .story-title {
     margin-top: 57px;
-    font-family: 'OpenSans', sans-serif;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
@@ -133,19 +130,18 @@ body {
 
 .story-subscription {
     width: 390px;
-    font-family: 'OpenSans', sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0.1875px;
     color: #48555B;
 }
-.konstruct{
+
+.konstruct {
     color: #00A4E5;
 }
 
 .story-subscription-small {
-    font-family: 'OpenSans', sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 23px;
@@ -156,6 +152,44 @@ body {
 .story-images-wrapper {
     width: 100%;
     max-width: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services {
+    margin-top: 118px;
+}
+
+.services-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-title {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+}
+
+.services-subscription {
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #48555B;
+}
+
+.services-false-btn {
+    padding: 11px 29px;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background-color: #00A4E5;
+}
+
+.service-items-wrapper {
+    margin-top: 76px;
     display: flex;
     justify-content: space-between;
 }
