@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "BebasNeueBold";
+    src: url("./ofont.ru_Bebas\ Neue.woff2") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+body {
+    background: #F2F2F2;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-bg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.header-logo {
+    width: 101.6px;
+    height: 23px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 41px;
+}
+
+.header-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 39vh;
+}
+
+.header-title {
+    font-family: 'BebasNeueBold';
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5.7px;
+    color: #FFFFFF;
+}
+
+.header-subtitle {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.header-scroll {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 3.7px;
+    color: #FFFFFF;
+    margin-top: auto;
+    margin-bottom: 71px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 941px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation {
+    border-bottom: 1px solid #6f6f6f;
+
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo-img {
+    width: 79.53px;
+    height: 18px;
+}
+
+.menu {
+    display: flex;
+    width: 410.5px;
+}
+
+.menu-item {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 1.09091px;
+    color: #48555B;
+}
